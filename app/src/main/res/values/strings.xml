@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android Pemula Submission</string>
+    <string name="label_height_mountain">Ketinggian</string>
+    <string name="label_type_mountain">Jenis Gunung</string>
+    <string name="label_detail">Detail</string>
+    <string name="label_favorite">Suka</string>
+    <string name="label_share">Bagikan</string>
+    <string name="menu_about">Tentang Saya</string>
+    <string name="menu_quit">Keluar Aplikasi</string>
+    <string name="about_name">M. Luthfi Taufiqurrahman</string>
+    <string name="about_email">mluthfitaufiq@gmail.com</string>
+    <string name="about_role">Web Developer</string>
+    <string name="about_institute">Universitas Padjadjaran</string>
+    <string name="about_phone">+62 823 8398 5420</string>
+    <string name="dummy_name_mount">Geureudong</string>
+    <string name="dummy_location_mount">Aceh, Indonesia</string>
+    <string name="dummy_height_mount">2,885 m (9,465 ft)</string>
+    <string name="dummy_type_mount">Stratovolcano</string>
+    <string name="dummy_description_mount">Gunung Geureudong atau Bur ni Geureudong atau Bur ni Telong adalah gunung stratovolcano di Provinsi Aceh, Indonesia. Nama resmi untuk kompleks gunung berapi ini masih menjadi perdebatan, karena posisi Bur ni Geureudong dan Bur ni Telong yang berdekatan. Dua Kerucut vulkanik bernama Salah Nama dan Pepanji yang merupakan bukit sedimen. Bur ni Geureudong telah mengalami longsor sejak masa Pleistosen, tetapi memiliki fumarol dan mata air panas di bagian lereng. Bur ni Telong terletak di selatan dari Bur ni Geureundong. Bur ni Telong memiliki kawah aktif yang masih terdapat lava di bagian selatan lereng gunung.</string>
+</resources>

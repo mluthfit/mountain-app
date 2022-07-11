@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CommonLayout.AboutContainer"
+    tools:context=".AboutActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        style="@style/PhotoProfile"
+        android:id="@+id/profile_image"
+        android:src="@drawable/photo_profile" />
+    <TextView
+        style="@style/CommonLayout.TextTitle.MyName"
+        android:text="@string/about_name" />
+    <TextView
+        style="@style/CommonLayout.TextLocation.CenterGap"
+        android:text="@string/about_role" />
+    <TextView
+        style="@style/CommonLayout.TextLocation.CenterGap"
+        android:text="@string/about_institute" />
+    <TextView
+        style="@style/CommonLayout.TextLocation.CenterGap"
+        android:text="@string/about_email" />
+    <TextView
+        style="@style/CommonLayout.TextLocation.CenterGap"
+        android:text="@string/about_phone" />
+</LinearLayout>

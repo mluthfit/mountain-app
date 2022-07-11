@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CommonLayout"
+    android:id="@+id/card_item"
+    android:layout_gravity="center"
+    card_view:cardCornerRadius="4dp">
+    <RelativeLayout
+        style="@style/RecyclerViewContainer">
+        <ImageView
+            style="@style/RecyclerViewImage"
+            android:id="@+id/item_image_mount"
+            tools:src="@tools:sample/backgrounds/scenic" />
+        <LinearLayout
+            style="@style/FullLayout.Detail"
+            android:layout_toEndOf="@id/item_image_mount"
+            android:orientation="vertical">
+            <TextView
+                style="@style/CommonLayout.TextTitle"
+                android:id="@+id/item_name_mount"
+                tools:text="Gunung Bandahara" />
+            <TextView
+                style="@style/CommonLayout.TextLocation"
+                android:id="@+id/item_location_mount"
+                tools:text="Kabupaten Gayo Lues, Aceh Indonesia" />
+            <TableLayout style="@style/CommonLayout.Table">
+                <TableRow>
+                    <TextView
+                        style="@style/Table.TextLabel"
+                        android:text="@string/label_height_mountain" />
+                    <TextView
+                        style="@style/Table.TextValue"
+                        android:id="@+id/item_height_mount"
+                        tools:text="3.030 m (9.941 kaki)" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        style="@style/Table.TextLabel"
+                        android:text="@string/label_type_mountain" />
+                    <TextView
+                        style="@style/Table.TextValue"
+                        android:id="@+id/item_type_mount"
+                        tools:text="Gunung tidak berapi" />
+                </TableRow>
+            </TableLayout>
+            <RelativeLayout
+                style="@style/ButtonDetailContainer">
+                <Button
+                    style="@style/CommonLayout.ButtonDetail"
+                    android:id="@+id/btn_detail_mount"
+                    android:text="@string/label_detail" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

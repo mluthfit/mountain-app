@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CommonLayout.Detail"
+    tools:context=".DetailActivity">
+    <ImageView
+        style="@style/DetailItemImage"
+        android:id="@+id/detail_photo_mount"
+        tools:src="@tools:sample/backgrounds/scenic" />
+    <LinearLayout
+        style="@style/CommonLayout.InfoDetailContainer">
+        <TextView
+            style="@style/CommonLayout.TextTitle"
+            android:id="@+id/detail_name_mount"
+            tools:text="@string/dummy_name_mount" />
+        <TextView
+            style="@style/CommonLayout.TextLocation"
+            android:id="@+id/detail_location_mount"
+            tools:text="Kabupaten Gayo Lues, Aceh Indonesia" />
+
+        <TableLayout style="@style/CommonLayout.Table2">
+            <TableRow>
+                <TextView
+                    style="@style/Table.TextLabel"
+                    android:text="@string/label_height_mountain" />
+                <TextView
+                    style="@style/Table.TextValue.Detail"
+                    android:id="@+id/detail_height_mount"
+                    tools:text="@string/dummy_height_mount" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    style="@style/Table.TextLabel"
+                    android:text="@string/label_type_mountain" />
+                <TextView
+                    style="@style/Table.TextValue.Detail"
+                    android:id="@+id/detail_type_mount"
+                    tools:text="@string/dummy_type_mount" />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            style="@style/CommonLayout.Table2.Description"
+            android:id="@+id/detail_description_mount"
+            tools:text="@string/dummy_description_mount" />
+        <LinearLayout
+            style="@style/CommonLayout.DetailButtonContainer">
+            <Button
+                style="@style/DetailButton.Left"
+                android:id="@+id/btn_favorite"
+                android:text="@string/label_favorite" />
+            <Button
+                style="@style/DetailButton.Right"
+                android:id="@+id/btn_share"
+                android:text="@string/label_share" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
